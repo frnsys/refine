@@ -10,12 +10,5 @@ setup(
     license='MIT',
 
     packages=['refine'],
-    install_requires=[
-        'PyYAML==3.12',
-        'click==6.2',
-    ],
-    entry_points='''
-        [console_scripts]
-        refine=refine.cli:refine
-    ''',
+    install_requires=[],
 )
