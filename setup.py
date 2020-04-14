@@ -11,7 +11,7 @@ setup(
 
     packages=['refine'],
     install_requires=[
-        'PyYAML==3.12',
+        'PyYAML==5.1',
         'click==6.2',
     ],
     entry_points='''
